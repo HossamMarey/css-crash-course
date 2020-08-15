@@ -1,0 +1,161 @@
+/* common styles */
+
+body{
+  background-color: #f3f3f3;
+  font-family: 'Roboto', sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 90%;
+  margin: auto;
+}
+p{
+  margin: 15px 3px;
+}
+small{
+  color:#d1ffac;
+  padding: 10px 20px;
+  margin: 10px auto ;
+  background-color: #202020;
+  width: 50%;
+  text-align: center;
+  display: block;
+}
+hr{
+  margin: 10px auto;
+  color: #c8d0d1;
+  display: block;
+}
+
+.v-align{
+  border: 2px gray solid;
+  display: table;
+  height: 100px;
+  width: 100%;
+}
+.v-align span{
+  padding: 10px;
+  display: table-cell;
+}
+.h-align{
+  border: 2px gray solid;
+  width: 100%;
+  display: block;
+}
+.lower-space{
+  height: 250px;
+}
+
+
+/* ---------------------------- */
+/* fonts */
+
+.fonts .main{
+  font-family: sans-serif;
+}
+.fonts .online{
+  
+}
+/* font size */
+.fonts .sm{
+  font-size: small;
+}
+.fonts .md{
+  font-size: medium;
+}
+.fonts .lg{
+  font-size: large;
+}
+.fonts .px{
+  font-size: 20px;
+}
+.fonts .em{
+  font-size: 1.3em;
+}
+/* font style */
+.fonts .normal-weight{
+  font-style: normal;
+}
+.fonts .italic-weight{
+  font-style: italic;
+}
+/* .fonts .oblique-weight{
+  font-style: oblique;
+} */
+.fonts .oblique-weight{
+  font-weight: bold;
+}
+.fonts .num-weight{
+font-weight: 900;
+}
+/* ---------------------------- */
+/* -- Text styles & Alignment -- */
+/* ---------------------------- */
+
+/* Horizontal Alignment */
+
+.text .align-left{
+  text-align: left;
+}
+.text .align-center{
+  text-align: center;
+}
+.text .align-right{
+  text-align: right;
+}
+/* Vertical Alignment */
+.text .align-top{
+  vertical-align: top;
+}
+.text .align-middle{
+  vertical-align: middle;
+}
+.text .align-bottom{
+  vertical-align: bottom;
+}
+
+.line-align .sub{
+  vertical-align: sub;
+}
+.line-align .super{
+  vertical-align: super;
+}
+.line-align .var{
+  vertical-align: -10px;
+}
+
+/* Text styles */
+.text-decoration .overline{
+  text-decoration: overline;
+}
+.text-decoration .underline{
+  text-decoration: underline;
+}
+.text-decoration .line-through{
+  text-decoration: line-through;
+}
+.text-decoration a{
+  text-decoration: none;
+}
+
+/* Text transform */
+.text-transform .capitalization{
+  text-transform: capitalize;
+}
+.text-transform .uppercase{
+  text-transform: uppercase;
+}
+.text-transform .lowercase{
+  text-transform: lowercase;
+}
+
+/* spacing */
+.letter-space{
+  letter-spacing: -2px;
+}
+.word-space{
+  word-spacing: 10px;
+}
